@@ -10,10 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text(Image(systemName: "launch image"))
-                .aspectRatio(contentMode: .fill)
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
+            CircleImage();
             VStack {
                 Text("Welcome to Organize")
                     .font(.title)

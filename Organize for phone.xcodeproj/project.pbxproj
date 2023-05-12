@@ -15,6 +15,7 @@
 		B556CB5A2A0450D600A377B2 /* Organize_for_phoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B556CB592A0450D600A377B2 /* Organize_for_phoneUITests.swift */; };
 		B556CB5C2A0450D600A377B2 /* Organize_for_phoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B556CB5B2A0450D600A377B2 /* Organize_for_phoneUITestsLaunchTests.swift */; };
 		B5970BF72A0A08A700F0234E /* navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5970BF62A0A08A700F0234E /* navigation.swift */; };
+		B5BC3A6B2A0EAD0F004E8E09 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BC3A6A2A0EAD0F004E8E09 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		B556CB592A0450D600A377B2 /* Organize_for_phoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organize_for_phoneUITests.swift; sourceTree = "<group>"; };
 		B556CB5B2A0450D600A377B2 /* Organize_for_phoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organize_for_phoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B5970BF62A0A08A700F0234E /* navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigation.swift; sourceTree = "<group>"; };
+		B5BC3A6A2A0EAD0F004E8E09 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 		B556CB442A0450D500A377B2 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				B5BC3A6A2A0EAD0F004E8E09 /* CircleImage.swift */,
 				B556CB452A0450D500A377B2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B556CB412A0450CF00A377B2 /* ContentView.swift in Sources */,
+				B5BC3A6B2A0EAD0F004E8E09 /* CircleImage.swift in Sources */,
 				B5970BF72A0A08A700F0234E /* navigation.swift in Sources */,
 				B556CB3F2A0450CF00A377B2 /* Organize_for_phoneApp.swift in Sources */,
 			);
