@@ -16,7 +16,7 @@ struct ContentView: View {
                     .font(.title)
                     .foregroundColor(.indigo)
                
-                Text("your one stop shop for all your organizational needs")
+                Text("your one stop shop for reaching your organizational goals")
                         .font(.caption)
                         .foregroundColor(Color.black)
                    
