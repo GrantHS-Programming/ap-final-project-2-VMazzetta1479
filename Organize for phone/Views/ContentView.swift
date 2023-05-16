@@ -9,26 +9,29 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        VStack{
             CircleImage();
-            VStack {
                 Text("Welcome to Organize")
                     .font(.title)
                     .foregroundColor(.indigo)
-               
+                
                 Text("your one stop shop for reaching your organizational goals")
-                        .font(.caption)
-                        .foregroundColor(Color.black)
-                   
-        
+                    .font(.caption)
+                    .foregroundColor(Color.black)
+                
+    
+            NavigationView{
+                NavigationLink ("to do list"){
+                    ListDetail()
+    
+                
             }
         }
-        .padding()
     }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
 }

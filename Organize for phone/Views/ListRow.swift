@@ -13,8 +13,11 @@ struct ListRow: View {
     
     var body: some View {
         HStack{
-            
+            ListImage()
+                .frame(width: 50, height: 50)
             Text("to-do list ")
+            
+            Spacer()
         }
         
     }
@@ -22,6 +25,9 @@ struct ListRow: View {
 
 struct ListRow_Previews: PreviewProvider {
     static var previews: some View {
-        ListRow(listtype: typeList1[0])
+        Group{
+            ListRow(listtype: typeList1[0])
+            
+        }
     }
 }
