@@ -11,20 +11,21 @@ struct ContentView: View {
     var body: some View {
         VStack{
             CircleImage();
-                Text("Welcome to Organize")
-                    .font(.title)
-                    .foregroundColor(.indigo)
-                
-                Text("your one stop shop for reaching your organizational goals")
-                    .font(.caption)
-                    .foregroundColor(Color.black)
-                
-    
+            Text("Welcome to Organize")
+                .font(.title)
+                .foregroundColor(.indigo)
+            
+            Text("your one stop shop for reaching your organizational goals")
+                .font(.caption)
+                .foregroundColor(Color.black)
+            
+            
             NavigationView{
                 NavigationLink ("to do list"){
                     ListDetail()
-    
-                
+                    
+                    
+                }
             }
         }
     }
