@@ -17,18 +17,26 @@ struct ContentView: View {
             
             Text("your one stop shop for reaching your organizational goals")
                 .font(.caption)
-                .foregroundColor(Color.black)
-            
+                .foregroundColor(Color.pink)
             
             NavigationView{
-                NavigationLink ("to do list"){
-                    ListDetail()
+                List{
+                    HStack{
+                        NavigationLink ("to do list"){
+                            ListDetail()
+                        }
+                    }
                     
-                    
+                    NavigationLink ("calendar"){
+                        CalendarDetails()
+                            
+                        }
+                        
+                    }
                 }
             }
         }
-    }
+    
     
     struct ContentView_Previews: PreviewProvider {
         static var previews: some View {

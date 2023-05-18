@@ -14,6 +14,7 @@
 		B556CB502A0450D600A377B2 /* Organize_for_phoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B556CB4F2A0450D600A377B2 /* Organize_for_phoneTests.swift */; };
 		B556CB5A2A0450D600A377B2 /* Organize_for_phoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B556CB592A0450D600A377B2 /* Organize_for_phoneUITests.swift */; };
 		B556CB5C2A0450D600A377B2 /* Organize_for_phoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B556CB5B2A0450D600A377B2 /* Organize_for_phoneUITestsLaunchTests.swift */; };
+		B56BCC2E2A16C0A50022F1C6 /* CalendarDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56BCC2D2A16C0A50022F1C6 /* CalendarDetails.swift */; };
 		B5970BF72A0A08A700F0234E /* navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5970BF62A0A08A700F0234E /* navigation.swift */; };
 		B5BC3A6B2A0EAD0F004E8E09 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BC3A6A2A0EAD0F004E8E09 /* CircleImage.swift */; };
 		B5CF98212A0ED84C007D9F80 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CF98202A0ED84C007D9F80 /* ListRow.swift */; };
@@ -51,6 +52,7 @@
 		B556CB552A0450D600A377B2 /* Organize for phoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Organize for phoneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B556CB592A0450D600A377B2 /* Organize_for_phoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organize_for_phoneUITests.swift; sourceTree = "<group>"; };
 		B556CB5B2A0450D600A377B2 /* Organize_for_phoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organize_for_phoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B56BCC2D2A16C0A50022F1C6 /* CalendarDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDetails.swift; sourceTree = "<group>"; };
 		B5970BF62A0A08A700F0234E /* navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigation.swift; sourceTree = "<group>"; };
 		B5BC3A6A2A0EAD0F004E8E09 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		B5CF98202A0ED84C007D9F80 /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				B5CF98202A0ED84C007D9F80 /* ListRow.swift */,
 				B5CF98242A0EDE4A007D9F80 /* todolistview.swift */,
 				B5DBCFE02A1415BA00AEEEBF /* ListDetail.swift */,
+				B56BCC2D2A16C0A50022F1C6 /* CalendarDetails.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			files = (
 				B556CB412A0450CF00A377B2 /* ContentView.swift in Sources */,
 				B5DBCFE12A1415BA00AEEEBF /* ListDetail.swift in Sources */,
+				B56BCC2E2A16C0A50022F1C6 /* CalendarDetails.swift in Sources */,
 				B5BC3A6B2A0EAD0F004E8E09 /* CircleImage.swift in Sources */,
 				B5970BF72A0A08A700F0234E /* navigation.swift in Sources */,
 				B5DBCFDF2A1412CE00AEEEBF /* List Image .swift in Sources */,
