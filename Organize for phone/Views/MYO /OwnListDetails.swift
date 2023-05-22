@@ -1,5 +1,5 @@
 //
-//  MYODetails.swift
+//  OwnListDetails.swift
 //  Organize for phone
 //
 //  Created by Vera Mazzetta on 5/22/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MYODetails: View {
+struct OwnListDetails: View {
     var body: some View {
         VStack{
             Text("Make Your Own")
@@ -35,15 +35,19 @@ struct MYODetails: View {
                         FavoritesList()
                         
                     }
+                    NavigationLink("Other"){
+                        OtherListDetail()
+                    }
                 }
-            }
-        }
-        
-        
-        struct MYODetails_Previews: PreviewProvider {
-            static var previews: some View {
-                MYODetails()
             }
         }
     }
 }
+        
+        struct OwnListDetails_Previews: PreviewProvider {
+            static var previews: some View {
+                OwnListDetails()
+            }
+        }
+
+

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
+   var body: some View {
         VStack{
             CircleImage();
             Text("Welcome to Organize")
@@ -21,19 +21,16 @@ struct ContentView: View {
             
             NavigationView{
                 List{
-                    HStack{
-                        NavigationLink ("to do list"){
-                            ListDetail()
-                        }
+                NavigationLink ("to do list"){
+                    ListDetail()
+                 }
+        
+                NavigationLink ("calendar"){
+                    CalendarDetails()
                     }
-                    
-                    NavigationLink ("calendar"){
-                        CalendarDetails()
-                            
-                        }
-                    NavigationLink ("make your own list"){
-                        
-                    }
+                NavigationLink ("make your own list"){
+                    OwnListDetails()
+                }
                         
                     }
                 }

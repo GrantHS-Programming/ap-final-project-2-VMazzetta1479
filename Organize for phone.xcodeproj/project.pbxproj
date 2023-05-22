@@ -23,11 +23,12 @@
 		B5DBCFDF2A1412CE00AEEEBF /* List Image .swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DBCFDE2A1412CE00AEEEBF /* List Image .swift */; };
 		B5DBCFE12A1415BA00AEEEBF /* ListDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DBCFE02A1415BA00AEEEBF /* ListDetail.swift */; };
 		B5ED88CF2A1BFC35008E424F /* calendarview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ED88CE2A1BFC35008E424F /* calendarview.swift */; };
-		B5ED88D12A1C0076008E424F /* MYODetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ED88D02A1C0076008E424F /* MYODetails.swift */; };
 		B5ED88D32A1C0417008E424F /* PackingListDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ED88D22A1C0417008E424F /* PackingListDetail.swift */; };
 		B5ED88D62A1C0460008E424F /* CleaningListDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ED88D52A1C045F008E424F /* CleaningListDetail.swift */; };
 		B5ED88DA2A1C04F0008E424F /* ProsConsListDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ED88D92A1C04F0008E424F /* ProsConsListDetail.swift */; };
 		B5ED88DC2A1C0507008E424F /* FavoritesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ED88DB2A1C0507008E424F /* FavoritesList.swift */; };
+		B5ED88DE2A1C07F6008E424F /* OwnListDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ED88DD2A1C07F6008E424F /* OwnListDetails.swift */; };
+		B5ED88E02A1C0A79008E424F /* OtherListDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ED88DF2A1C0A79008E424F /* OtherListDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,11 +68,12 @@
 		B5DBCFDE2A1412CE00AEEEBF /* List Image .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List Image .swift"; sourceTree = "<group>"; };
 		B5DBCFE02A1415BA00AEEEBF /* ListDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetail.swift; sourceTree = "<group>"; };
 		B5ED88CE2A1BFC35008E424F /* calendarview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarview.swift; sourceTree = "<group>"; };
-		B5ED88D02A1C0076008E424F /* MYODetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYODetails.swift; sourceTree = "<group>"; };
 		B5ED88D22A1C0417008E424F /* PackingListDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackingListDetail.swift; sourceTree = "<group>"; };
 		B5ED88D52A1C045F008E424F /* CleaningListDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleaningListDetail.swift; sourceTree = "<group>"; };
 		B5ED88D92A1C04F0008E424F /* ProsConsListDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProsConsListDetail.swift; sourceTree = "<group>"; };
 		B5ED88DB2A1C0507008E424F /* FavoritesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesList.swift; sourceTree = "<group>"; };
+		B5ED88DD2A1C07F6008E424F /* OwnListDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnListDetails.swift; sourceTree = "<group>"; };
+		B5ED88DF2A1C0A79008E424F /* OtherListDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherListDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,10 +179,11 @@
 			isa = PBXGroup;
 			children = (
 				B5ED88D22A1C0417008E424F /* PackingListDetail.swift */,
-				B5ED88D02A1C0076008E424F /* MYODetails.swift */,
 				B5ED88D52A1C045F008E424F /* CleaningListDetail.swift */,
 				B5ED88D92A1C04F0008E424F /* ProsConsListDetail.swift */,
 				B5ED88DB2A1C0507008E424F /* FavoritesList.swift */,
+				B5ED88DD2A1C07F6008E424F /* OwnListDetails.swift */,
+				B5ED88DF2A1C0A79008E424F /* OtherListDetail.swift */,
 			);
 			path = "MYO ";
 			sourceTree = "<group>";
@@ -315,11 +318,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5ED88E02A1C0A79008E424F /* OtherListDetail.swift in Sources */,
 				B556CB412A0450CF00A377B2 /* ContentView.swift in Sources */,
 				B5DBCFE12A1415BA00AEEEBF /* ListDetail.swift in Sources */,
 				B56BCC2E2A16C0A50022F1C6 /* CalendarDetails.swift in Sources */,
 				B5BC3A6B2A0EAD0F004E8E09 /* CircleImage.swift in Sources */,
 				B5970BF72A0A08A700F0234E /* navigation.swift in Sources */,
+				B5ED88DE2A1C07F6008E424F /* OwnListDetails.swift in Sources */,
 				B5ED88D32A1C0417008E424F /* PackingListDetail.swift in Sources */,
 				B5DBCFDF2A1412CE00AEEEBF /* List Image .swift in Sources */,
 				B5ED88CF2A1BFC35008E424F /* calendarview.swift in Sources */,
@@ -327,7 +332,6 @@
 				B5CF98212A0ED84C007D9F80 /* ListRow.swift in Sources */,
 				B5CF98232A0EDB7D007D9F80 /* modelData.swift in Sources */,
 				B5ED88DA2A1C04F0008E424F /* ProsConsListDetail.swift in Sources */,
-				B5ED88D12A1C0076008E424F /* MYODetails.swift in Sources */,
 				B5ED88DC2A1C0507008E424F /* FavoritesList.swift in Sources */,
 				B5CF98252A0EDE4A007D9F80 /* todolistview.swift in Sources */,
 				B5ED88D62A1C0460008E424F /* CleaningListDetail.swift in Sources */,
