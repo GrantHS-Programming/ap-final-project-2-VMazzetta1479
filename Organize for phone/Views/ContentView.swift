@@ -31,6 +31,9 @@ struct ContentView: View {
                         CalendarDetails()
                             
                         }
+                    NavigationLink ("make your own list"){
+                        
+                    }
                         
                     }
                 }

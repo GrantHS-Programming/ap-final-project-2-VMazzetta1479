@@ -10,12 +10,12 @@ import SwiftUI
 struct ListImage: View {
     var body: some View {
         Image("to do list ")
+            .padding(.bottom, 20.0)
     }
 }
 
 struct ListImage_Previews: PreviewProvider {
     static var previews: some View {
-        CircleImage()
-    }
+        ListImage()    }
 }
 
