@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-   var body: some View {
+    var body : some View {
         VStack{
             CircleImage();
             Text("Welcome to Organize")
@@ -21,21 +21,29 @@ struct ContentView: View {
             
             NavigationView{
                 List{
-                NavigationLink ("to do list"){
-                    ListDetail()
-                 }
-        
-                NavigationLink ("calendar"){
-                    CalendarDetails()
+                    NavigationLink ("to do list"){
+                        ListDetail()
                     }
-                NavigationLink ("make your own list"){
-                    OwnListDetails()
-                }
-                        
+                    
+                    NavigationLink ("calendar"){
+                        CalendarDetails()
                     }
+                    NavigationLink ("make your own list"){
+                        OwnListDetails()
+                    }
+                    NavigationLink ("timer"){
+                        TimerDetail()
+                    }
+                    NavigationLink("search"){
+                        search()
+                    }
+                    
                 }
+                .textSelection(.enabled)
+                
             }
         }
+    }
     
     
     struct ContentView_Previews: PreviewProvider {
@@ -43,4 +51,5 @@ struct ContentView: View {
             ContentView()
         }
     }
+    
 }

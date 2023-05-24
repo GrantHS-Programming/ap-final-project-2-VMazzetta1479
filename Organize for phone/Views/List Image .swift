@@ -10,7 +10,7 @@ import SwiftUI
 struct ListImage: View {
     var body: some View {
         Image("to do list ")
-            .padding(.bottom, 20.0)
+            .padding(.bottom, 50.0)
     }
 }
 

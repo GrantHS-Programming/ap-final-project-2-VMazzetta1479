@@ -16,6 +16,8 @@
 		B556CB5C2A0450D600A377B2 /* Organize_for_phoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B556CB5B2A0450D600A377B2 /* Organize_for_phoneUITestsLaunchTests.swift */; };
 		B56BCC2E2A16C0A50022F1C6 /* CalendarDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56BCC2D2A16C0A50022F1C6 /* CalendarDetails.swift */; };
 		B5970BF72A0A08A700F0234E /* navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5970BF62A0A08A700F0234E /* navigation.swift */; };
+		B5B131EC2A1EA42A007D66E4 /* TimerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B131EB2A1EA42A007D66E4 /* TimerDetail.swift */; };
+		B5B131EE2A1EAAE1007D66E4 /* search.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B131ED2A1EAAE1007D66E4 /* search.swift */; };
 		B5BC3A6B2A0EAD0F004E8E09 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BC3A6A2A0EAD0F004E8E09 /* CircleImage.swift */; };
 		B5CF98212A0ED84C007D9F80 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CF98202A0ED84C007D9F80 /* ListRow.swift */; };
 		B5CF98232A0EDB7D007D9F80 /* modelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CF98222A0EDB7D007D9F80 /* modelData.swift */; };
@@ -61,6 +63,8 @@
 		B556CB5B2A0450D600A377B2 /* Organize_for_phoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organize_for_phoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B56BCC2D2A16C0A50022F1C6 /* CalendarDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDetails.swift; sourceTree = "<group>"; };
 		B5970BF62A0A08A700F0234E /* navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigation.swift; sourceTree = "<group>"; };
+		B5B131EB2A1EA42A007D66E4 /* TimerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TimerDetail.swift; path = "Organize for phone/Views/TimerDetail.swift"; sourceTree = SOURCE_ROOT; };
+		B5B131ED2A1EAAE1007D66E4 /* search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = search.swift; sourceTree = "<group>"; };
 		B5BC3A6A2A0EAD0F004E8E09 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		B5CF98202A0ED84C007D9F80 /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
 		B5CF98222A0EDB7D007D9F80 /* modelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelData.swift; sourceTree = "<group>"; };
@@ -166,11 +170,13 @@
 				B556CB402A0450CF00A377B2 /* ContentView.swift */,
 				B5ED88D42A1C041E008E424F /* MYO  */,
 				B5CF98202A0ED84C007D9F80 /* ListRow.swift */,
+				B5B131EB2A1EA42A007D66E4 /* TimerDetail.swift */,
 				B5CF98242A0EDE4A007D9F80 /* todolistview.swift */,
 				B5DBCFE02A1415BA00AEEEBF /* ListDetail.swift */,
 				B5DBCFDE2A1412CE00AEEEBF /* List Image .swift */,
 				B56BCC2D2A16C0A50022F1C6 /* CalendarDetails.swift */,
 				B5ED88CE2A1BFC35008E424F /* calendarview.swift */,
+				B5B131ED2A1EAAE1007D66E4 /* search.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -330,8 +336,10 @@
 				B5ED88CF2A1BFC35008E424F /* calendarview.swift in Sources */,
 				B556CB3F2A0450CF00A377B2 /* Organize_for_phoneApp.swift in Sources */,
 				B5CF98212A0ED84C007D9F80 /* ListRow.swift in Sources */,
+				B5B131EE2A1EAAE1007D66E4 /* search.swift in Sources */,
 				B5CF98232A0EDB7D007D9F80 /* modelData.swift in Sources */,
 				B5ED88DA2A1C04F0008E424F /* ProsConsListDetail.swift in Sources */,
+				B5B131EC2A1EA42A007D66E4 /* TimerDetail.swift in Sources */,
 				B5ED88DC2A1C0507008E424F /* FavoritesList.swift in Sources */,
 				B5CF98252A0EDE4A007D9F80 /* todolistview.swift in Sources */,
 				B5ED88D62A1C0460008E424F /* CleaningListDetail.swift in Sources */,

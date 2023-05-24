@@ -20,14 +20,15 @@ struct ListRow: View {
             Spacer()
         }
         
+        
     }
-}
-
-struct ListRow_Previews: PreviewProvider {
-    static var previews: some View {
-        Group{
-            ListRow(listtype: typeList1[0])
-            
+    
+    struct ListRow_Previews: PreviewProvider {
+        static var previews: some View {
+            Group{
+                ListRow(listtype: typeList1[0])
+                
+            }
         }
     }
 }

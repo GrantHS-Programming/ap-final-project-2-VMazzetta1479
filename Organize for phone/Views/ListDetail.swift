@@ -13,14 +13,19 @@ struct ListDetail: View {
             Text("Welcome to your to do list")
                 .font(.title)
                 .fontWeight(.heavy)
-                .padding(.bottom, 400.0)
+                .padding(.bottom, 300.0)
+            Link("to-do list template", destination: URL(string: "https://www.canva.com/create/to-do-lists/" )!)
+                .padding(.bottom, 50.0)
             ListImage()
             Text("this is your place to keep track of all the things you have to do")
                 .font(.headline)
                 .fontWeight(.semibold)
                 .foregroundColor(Color.black)
                 .multilineTextAlignment(.center)
-                .padding([.top, .leading, .trailing], 15.0)
+                .padding(.bottom, 50.0)
+                .lineSpacing(15.0)
+                .fontDesign(.serif)
+            
         }
         
         
