@@ -31,6 +31,7 @@
 		B5ED88DC2A1C0507008E424F /* FavoritesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ED88DB2A1C0507008E424F /* FavoritesList.swift */; };
 		B5ED88DE2A1C07F6008E424F /* OwnListDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ED88DD2A1C07F6008E424F /* OwnListDetails.swift */; };
 		B5ED88E02A1C0A79008E424F /* OtherListDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ED88DF2A1C0A79008E424F /* OtherListDetail.swift */; };
+		B5FF2E752A215402002CA580 /* reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF2E742A215402002CA580 /* reviews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		B5ED88DB2A1C0507008E424F /* FavoritesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesList.swift; sourceTree = "<group>"; };
 		B5ED88DD2A1C07F6008E424F /* OwnListDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnListDetails.swift; sourceTree = "<group>"; };
 		B5ED88DF2A1C0A79008E424F /* OtherListDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherListDetail.swift; sourceTree = "<group>"; };
+		B5FF2E742A215402002CA580 /* reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reviews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 				B5ED88D42A1C041E008E424F /* MYO  */,
 				B5CF98202A0ED84C007D9F80 /* ListRow.swift */,
 				B5B131EB2A1EA42A007D66E4 /* TimerDetail.swift */,
+				B5FF2E742A215402002CA580 /* reviews.swift */,
 				B5CF98242A0EDE4A007D9F80 /* todolistview.swift */,
 				B5DBCFE02A1415BA00AEEEBF /* ListDetail.swift */,
 				B5DBCFDE2A1412CE00AEEEBF /* List Image .swift */,
@@ -337,6 +340,7 @@
 				B556CB3F2A0450CF00A377B2 /* Organize_for_phoneApp.swift in Sources */,
 				B5CF98212A0ED84C007D9F80 /* ListRow.swift in Sources */,
 				B5B131EE2A1EAAE1007D66E4 /* search.swift in Sources */,
+				B5FF2E752A215402002CA580 /* reviews.swift in Sources */,
 				B5CF98232A0EDB7D007D9F80 /* modelData.swift in Sources */,
 				B5ED88DA2A1C04F0008E424F /* ProsConsListDetail.swift in Sources */,
 				B5B131EC2A1EA42A007D66E4 /* TimerDetail.swift in Sources */,

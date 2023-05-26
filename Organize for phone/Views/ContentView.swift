@@ -37,10 +37,19 @@ struct ContentView: View {
                     NavigationLink("search"){
                         search()
                     }
+                    NavigationLink ("give a reivew"){
+                        reviews()
+                        
+                    }
+                    .textSelection(.enabled)
                     
                 }
-                .textSelection(.enabled)
-                
+            }
+            Text("thank you for visiting my app!")
+                .fontWeight(.semibold)
+                .foregroundColor(Color.pink)
+                .padding(.bottom, 5.0)
+    
             }
         }
     }
@@ -52,4 +61,3 @@ struct ContentView: View {
         }
     }
     
-}

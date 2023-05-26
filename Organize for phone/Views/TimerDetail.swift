@@ -9,18 +9,11 @@ import SwiftUI
 import Foundation
 
 struct TimerDetail: View {
-        @State private var timerStarted = false
-            .alert("Order confirmed", isPresented: $timerStarted) {
-                Button("Confirm order") {
-                    timerStarted.toggle()
-                }
-            } message: {
-                Text("Your total was thank you!")
-            }
-        
-
     var body: some View {
-        Text("Welcome to Timer")
+        VStack{
+            Text("Welcome to Timer")
+            Link("timer", destination: URL(string: "https://www.google.com/search?client=safari&rls=en&q=timer&ie=UTF-8&oe=UTF-8" )!)
+        }
     }
     
     
