@@ -32,6 +32,7 @@
 		B5ED88DE2A1C07F6008E424F /* OwnListDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ED88DD2A1C07F6008E424F /* OwnListDetails.swift */; };
 		B5ED88E02A1C0A79008E424F /* OtherListDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ED88DF2A1C0A79008E424F /* OtherListDetail.swift */; };
 		B5FF2E752A215402002CA580 /* reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF2E742A215402002CA580 /* reviews.swift */; };
+		B5FF2E772A27DD6D002CA580 /* starview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF2E762A27DD6D002CA580 /* starview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		B5ED88DD2A1C07F6008E424F /* OwnListDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnListDetails.swift; sourceTree = "<group>"; };
 		B5ED88DF2A1C0A79008E424F /* OtherListDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherListDetail.swift; sourceTree = "<group>"; };
 		B5FF2E742A215402002CA580 /* reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reviews.swift; sourceTree = "<group>"; };
+		B5FF2E762A27DD6D002CA580 /* starview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 				B5CF98202A0ED84C007D9F80 /* ListRow.swift */,
 				B5B131EB2A1EA42A007D66E4 /* TimerDetail.swift */,
 				B5FF2E742A215402002CA580 /* reviews.swift */,
+				B5FF2E762A27DD6D002CA580 /* starview.swift */,
 				B5CF98242A0EDE4A007D9F80 /* todolistview.swift */,
 				B5DBCFE02A1415BA00AEEEBF /* ListDetail.swift */,
 				B5DBCFDE2A1412CE00AEEEBF /* List Image .swift */,
@@ -334,6 +337,7 @@
 				B5BC3A6B2A0EAD0F004E8E09 /* CircleImage.swift in Sources */,
 				B5970BF72A0A08A700F0234E /* navigation.swift in Sources */,
 				B5ED88DE2A1C07F6008E424F /* OwnListDetails.swift in Sources */,
+				B5FF2E772A27DD6D002CA580 /* starview.swift in Sources */,
 				B5ED88D32A1C0417008E424F /* PackingListDetail.swift in Sources */,
 				B5DBCFDF2A1412CE00AEEEBF /* List Image .swift in Sources */,
 				B5ED88CF2A1BFC35008E424F /* calendarview.swift in Sources */,

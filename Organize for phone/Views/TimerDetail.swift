@@ -9,9 +9,17 @@ import SwiftUI
 import Foundation
 
 struct TimerDetail: View {
+    @State private var timer=false
     var body: some View {
         VStack{
-            Text("Welcome to Timer")
+        Button("Welcome to Timer"){
+            timer.toggle()
+        }
+            tint(.pink)
+            .buttonStyle(.borderedProminent)
+        if timer{
+            Text("The link below is to the google timer")
+        }
             Link("timer", destination: URL(string: "https://www.google.com/search?client=safari&rls=en&q=timer&ie=UTF-8&oe=UTF-8" )!)
         }
     }
