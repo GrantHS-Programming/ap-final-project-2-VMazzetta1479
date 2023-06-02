@@ -9,7 +9,10 @@ import SwiftUI
 
 struct FavoritesList: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("This is a place to make a favorites list. What kind of favorites you might ask? This could be a list of favorite foods, favorite colors, favorite songs, favorite movies, etc. ")
+            .font(.subheadline)
+            .fontWeight(.semibold)
+            .foregroundColor(Color.pink)
     }
 }
 
