@@ -10,11 +10,22 @@ import SwiftUI
 struct search: View {
     @State private var searchText = ""
         var body: some View {
+            VStack{
             NavigationStack {
-                Text("Searching for \(searchText)")
-                    .navigationTitle("Search")
+                Text("You have searched for \(searchText)")
+                    .font(.title)
+                    .fontWeight(.semibold)
+                    .foregroundColor(Color.pink)
+                    .navigationTitle("what do you want?")
+                    
+                
             }
             .searchable(text: $searchText)
+            Text("whooo, a search engine!!")
+                    .fontWeight(.semibold)
+                    .foregroundColor(Color.purple)
+                
+            }
         }
     }
 

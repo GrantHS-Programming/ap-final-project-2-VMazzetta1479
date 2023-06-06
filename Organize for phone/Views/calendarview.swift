@@ -9,8 +9,18 @@ import SwiftUI
 
 struct calendarview: View {
     var body: some View {
-        Image("schedule")
-            .padding(.bottom, 20.0)
+        VStack{
+            Text("Welcome to your schedule")
+                .font(.title)
+                .fontWeight(.semibold)
+                .foregroundColor(Color.pink)
+                .padding(.bottom, 100.0)
+            Image("schedule")
+                .padding(.bottom, 20.0)
+            
+            
+        }
+       
     }
 }
 
